@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="inicio.master.cs" Inherits="EXAMEN3_MIGUELSOTOAGUILAR.inicio" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+
+    
+    <link href="CSS/menucss.css" rel="stylesheet" />
+    <link href="CSS/GridViewDisenno.css" rel="stylesheet" />
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+
+            <div>
+
+            
+
+                <ul>
+                    <li><a href="encuesta.aspx">LLENAR ENCUESTA</a></li>
+                    
+                    
+                    
+                    <li><a href="reporte.aspx">REPORTE ENCUESTAS</a></li>
+                   
+                </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
